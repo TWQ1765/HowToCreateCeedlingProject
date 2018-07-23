@@ -21,6 +21,7 @@ EOF
 Create a dummy `Readme.txt` file to avoid `Git` from totally remove the `build` folder: 
 ```
 echo "Do not remove me!" > build/Readme.txt
+cp build/Readme.txt test/support/
 ```
 Then add all new files to the Git staging area:
 ```
